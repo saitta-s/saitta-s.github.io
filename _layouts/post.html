@@ -39,6 +39,7 @@ layout: default
     </p>
   </header>
 
+  
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
     <div id="table-of-contents">
@@ -50,6 +51,7 @@ layout: default
       {{ content }}
     </div>
   </article>
+  
 
   {%- if site.related_blog_posts.enabled -%}
     {%- if page.related_posts == null or page.related_posts -%}

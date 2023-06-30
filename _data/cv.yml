@@ -2,96 +2,112 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Simone Saitta
     - name: Date of Birth
-      value: 14th March 1879
+      value: 12th July 1993
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Italian (mother tongue), English (spoken and written fluently), Spanish (beginner)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Ph.D. in Bioengineering
+      institution: Politecnico di Milano, Milan, Italy
+      year: Nov. 2019 - May 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Development, training and application of deep neural networks for automatic 3D segmentation of medical images. 
+        - Integration of deep neural networks within computational pipelines for mixed-reality applications in neurosurgery.
+        - Development of data-driven statistical shape models of hemodynamics from flow-encoded magnetic resonance images.
+        - Development of deep neural network-based methods for unsupervised 4D reconstruction of fluid flow from flow-encoded MRI.
+        - Development of a 4D variational data assimilation framework for blood flow dynamics in cerebral aneurysms.
+        - Gained programming experience with the FEniCS API for PDE-constrained optimization using an adjoint solver. 
+
+    - title: Visiting Ph.D. Student
+      institution: University of Cambridge, Cambridge, UK
+      year: Mar. 2022 - Aug. 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Increased knowledge of inverse problems in medical imaging applications.
+        - Development of an unsupervised learning approach for denoising and super-resolution of flow-encoded MRI.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Consultant
+      institution: Politecnico di Milano, Milan, Italy
+      year: 2022
       description:
+        - Development of user-defined subroutines for particle-laden numerical simulations of fluid flow.
+        - Numerical modeling of multi-phase and multi-scale flows in complex geometries using a volume-of-fluid method.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Engineer
+      institution: National University of Singapore, Singapore
+      year: 2019
+      description:
+        - Development of an automatic image registration computational framework based on iterative optimization methods.
+        - Implementation of automatic multi-view 4D image registration using python and simple-elastix.
+        - Gained programming experience with Python and C++ cross-platform libraries for object-oriented libraries for image processing.
 
-- title: Open Source Projects
+    - title: Research Assistant
+      institution: Imperial College London, London, UK and Zhongshan Hospital, Shanghai, China
+      year: 2018
+      description:
+       - Optimization of a finite element-based framework for non-invasive pressure calculation from magnetic resonance flow images.
+       - Implementation of a user-friendly GUI for medical image processing.
+       - CFD simulation of blood fluid dynamics in aortic dissections using the open-source finite element software SimVascular.
+       - Gained programming experience in the MATLAB environment.
+
+    - title: MSc Thesis Project
+      institution: Imperial College London, London, UK
+      year: 2017
+      description:
+       - MATLAB implementation of a finite element-based framework for solving the pressure Poisson equation from magnetic resonance flow images.
+       - Validation of numerical results with a 3D printed hydraulic mock-loop.
+       - Development and setup of fluid-structure interaction and computational fluid dynamics simulations and applications to pathological blood flow assessment.
+    
+    - title: MSc Course Project
+      institution: Politecnico di Milano, Milan, Italy
+      year: 2017
+      description:
+       - Setup of CFD simulations of blood flow using Ansys Fluent.
+       - Hemodynamic assessment using two different models for blood viscosity; Newtonian and non-Newtonian (generalized power law).
+       - Implementation of user defined routines in Ansys Fluent to model blood viscosity and transient flow boundary conditions.
+
+- title: Technical Skills
+  type: list
+  contents:
+    - <u>Programming:</u> Python, MATLAB, C, C++ (beginner).
+    - <u>Libraries:</u> Pytorch, VTK, ITK, FeniCS, elastix.
+    - <u>Containerization:</u> Docker, Singularity.
+    - <u>Miscellaneous:</u> Experience with HPC systems, including GPU-accelerated clusters.
+    - <u>Simulation software:</u> Ansys, Star-CCM+, OpenFOAM, SimVascular, CRIMSON.
+    - <u>Data processing and visualization software:</u> Paraview, Ensight, Meshmixer, 3DSlicer, SolidWorks.
+
+- title: Grants and Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: McKusick Fellowship Research Grant
+      institution: $100,000 grant from the Marfan Foundation.
+      year: 2023
+      description: 
+       - <u>Project title:</u> Machine learning for identification of geometrical and biomechanical markers of aortic dissection in Marfan patients.
+    - title: Switch2Product startup competition
+      institution: €30,000 prize from Politecnico di Milano
+      year: 2022
+      description: 
+       - <u>Project title:</u>  IPSE-XR - A deep learning and mixed reality-based solution to support neurosurgery.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Machine learning
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Computer vision
+        - Geometric deep learning
+        - Neural representations
+    - title: Numerical simulations
       items:
-        - Description 1.
-        - Description 2.
+        - Computational fluid dynamics
+        - Finite elements and finite volumes
+        - Data assimilation
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Football (or soccer) &#9917;, Vipassana meditation 🧘
