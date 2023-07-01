@@ -6,7 +6,7 @@ subtitle: Postdoctoral Researcher -- <a href='https://www.polimi.it/'>Politecnic
 
 profile:
   align: right
-  image: simone3.jpg
+  image: Simone-Saitta.jpg
   image_circular: true # crops the image to make it circular
   address: >
 
