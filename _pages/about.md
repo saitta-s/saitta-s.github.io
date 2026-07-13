@@ -19,15 +19,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-##### **Research vision**
+### **Research vision**
 I develop data-driven methods to make cardiovascular imaging more quantitative and objective. My work brings together deep learning, computational modeling, physics, and image analysis to support diagnosis, treatment planning, and image-guided cardiac procedures.
 
-##### **About me**
+### **About me**
 I am an **Assistant Professor in Cardiovascular Image Analysis** at <a href='https://www.amsterdamumc.org/en/departments/biomedical-engineering-and-physics'> Department of Biomedical Engineering and Physics</a> of Amsterdam UMC and affiliated to the <a href='https://ivi.uva.nl/'> Informatics Institute</a> of the University of Amsterdam, where I am part of the <a href='https://qurai.amsterdam/'>qurAI group</a>. I lead the technical developments of the <a href='https://www.cara-ai-lab.nl/'>CARA Lab</a>, which develops robust, real-time AI for intracoronary optical coherence tomography (OCT) at the catheterization laboratory, and I contribute to the group's Cardiovascular Lab. My current research centres on AI methods to support interventional cardiology, with an emphasis on coronary artery and aortic diseases. 
 
 More broadly, I am motivated by real clinical problems and enjoy combining ideas from machine learning, computational fluid dynamics, image analysis, and differential geometry. Recurring themes in my work include convolutional and graph neural networks for 3D medical image segmentation and surrogate modelling, implicit neural representations for imaging denoising and super-resolution, and automated pipelines for surgical and interventional pre-procedural planning.
 
-##### **Background**
+### **Background**
 I obtained my PhD in Bioengineering (_cum laude_) at <a href='https://www.polimi.it/'>Politecnico di Milano</a> in 2023, with a thesis on data-driven approaches for quantifying complex biomarkers from medical imaging, and continued there as a postdoctoral fellow and junior assistant professor before moving to Amsterdam in 2024. During my PhD I was a visiting researcher in the <a href='https://www.damtp.cam.ac.uk/research/cia/'>Cambridge Image Analysis Group</a> at the University of Cambridge, working on inverse problems for flow-encoded MRI.
 
 Earlier, I worked with the <a href='https://www.imperial.ac.uk/biofluids-and-transport/'>Biofluids and Transport Group</a> at <a href='https://www.imperial.ac.uk/'>Imperial College London</a> — first for my MSc thesis and then as a Research Assistant — where I built <a href='https://github.com/saitta-s/flow4D'>flow4D</a>, a small tool for analysing 4D flow MR images. I also spent time as a Research Engineer in the Cardiovascular Biomechanics and Ultrasound Laboratory at the <a href='https://cde.nus.edu.sg/bme/'>National University of Singapore</a>, working on simulation and registration of 4D fetal heart echocardiography.
