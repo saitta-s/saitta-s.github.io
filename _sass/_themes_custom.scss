@@ -1,16 +1,16 @@
 /*******************************************************************************
- * ADDED: Custom colors
+ * ADDED: Custom colors  (2026 modern restyle)
  ******************************************************************************/
 
 // Day theme colors
-$day-color-main:             #E65100 !default;                         // orange 900 material.io
-$day-color-hover:            #FF9800 !default;                         // orange 500 material.io
+$day-color-main:             #0b6bcb !default;   // professional azure
+$day-color-hover:            #2a86e0 !default;   // lighter azure for hover
 
 // Night theme colors
-$night-background-color:     $black-color !default;                         
-$night-color-main:           #6fdfee !default;
-$night-color-hover:          $night-color-main; 
-$night-card-color:           #2a2d50 !default;
+$night-background-color:     #16181d !default;   // deep neutral (not pure black)
+$night-color-main:           #6cb6ff !default;   // luminous sky blue
+$night-color-hover:          #93cbff !default;
+$night-card-color:           #20242c !default;
 
 
 /*******************************************************************************
@@ -28,7 +28,7 @@ $night-card-color:           #2a2d50 !default;
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: #{$day-color-main};
+  --global-divider-color: rgba(0, 0, 0, 0.08);
   --global-card-bg-color: #{$white-color};
 
   .fa-sun {
@@ -52,7 +52,7 @@ html[data-theme='dark'] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #{$night-color-main};
+  --global-divider-color: rgba(255, 255, 255, 0.12);
   --global-card-bg-color: #{$night-card-color};
 
   .fa-sun {
