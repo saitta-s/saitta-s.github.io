@@ -30,6 +30,20 @@ layout: default
       {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+
+    <!-- Affiliation logos -->
+    <div class="affiliation-logos">
+      <a href="https://qurai.amsterdam/" target="_blank" rel="noopener noreferrer" title="qurAI group">
+        <img src="{{ '/assets/img/logos/qurai.png' | relative_url }}" alt="qurAI">
+      </a>
+      <a href="https://www.amsterdamumc.nl/" target="_blank" rel="noopener noreferrer" title="Amsterdam UMC">
+        <img src="{{ '/assets/img/logos/amsterdamumc.png' | relative_url }}" alt="Amsterdam UMC">
+      </a>
+      <a href="https://www.uva.nl/en" target="_blank" rel="noopener noreferrer" title="University of Amsterdam">
+        <img src="{{ '/assets/img/logos/uva.png' | relative_url }}" alt="University of Amsterdam">
+      </a>
+    </div>
+
     {%- if page.profile.address %}
     <div class="address">
       {{ page.profile.address }}

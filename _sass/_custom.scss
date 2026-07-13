@@ -38,6 +38,38 @@ footer.sticky-bottom {
     color: var(--global-theme-color);
   }
 
+  // Affiliation logos (qurAI, Amsterdam UMC, UvA)
+  .affiliation-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0.9rem 0 0.2rem;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      // white chip keeps black wordmarks/emblems legible in dark mode too
+      background: #fff;
+      padding: 0.35rem 0.6rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+      &:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.22);
+      }
+    }
+
+    img {
+      display: block;
+      height: 2rem;
+      width: auto;
+    }
+  }
+
   .address {
     color: var(--global-text-color);
 
