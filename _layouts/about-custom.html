@@ -19,7 +19,8 @@ layout: default
       {% include figure.html
       path=profile_image_path
       class=profile_image_class
-      alt=page.profile.image -%}
+      alt=page.profile.image_alt
+      loading="eager" -%}
       {% endif -%}
     </div>
     {%- endif %}
