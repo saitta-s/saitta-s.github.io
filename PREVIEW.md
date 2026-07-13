@@ -2,11 +2,43 @@
 
 This site is built with Jekyll (al-folio theme). The theme's dependencies
 (`jekyll-scholar`, `mini_racer`, `imagemagick`, …) are painful to install
-natively on Windows, so the reliable way to preview on this machine is
-**Docker Desktop**. You build/serve in a container; nothing is published.
+natively on Windows. Two reliable ways to preview on this machine:
+
+- **WSL (Ubuntu)** — no Docker; run Jekyll directly inside WSL. See
+  [Option A](#option-a--wsl-ubuntu-no-docker).
+- **Docker Desktop** — build/serve in a container. See
+  [Option B](#option-b--docker-desktop).
+
+Either way, nothing is published.
 
 > Everything stays on the `site-refresh` branch and on your machine.
 > The live site only updates when changes are pushed to `master`.
+
+## Option A — WSL (Ubuntu, no Docker)
+
+One-time system deps (inside an Ubuntu terminal):
+
+```bash
+sudo apt update
+sudo apt install -y ruby-full build-essential imagemagick \
+     libmagickwand-dev zlib1g-dev nodejs
+gem install --user-install bundler
+```
+
+Then, every time, from the repo root:
+
+```bash
+./bin/preview.sh          # live-reload dev server on http://localhost:4000
+./bin/preview.sh -p 8080  # use a different port
+```
+
+The helper drops the git-ignored `Gemfile.lock`, runs `bundle install` on the
+first run (cached after), and serves with live reload. Press **Ctrl+C** to stop.
+
+> Serving from `/mnt/c/...` works but file-watching can be sluggish. For faster
+> reloads, `git clone` the repo into your WSL home (`~/`) and serve from there.
+
+## Option B — Docker Desktop
 
 ## One-time setup
 
