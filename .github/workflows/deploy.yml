@@ -2,13 +2,9 @@ name: deploy
 
 on:
   push:
-    branches:
-      - master
-      - main
+    branches: [master]
   pull_request:
-    branches:
-      - master
-      - main
+    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -19,20 +15,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.2.2'
+        ruby-version: '3.3'
         bundler-cache: true
-    - name: Install and Build 🔧
+
+    - name: Install system dependencies
       run: |
-        npm install -g mermaid.cli
+        sudo apt-get update
+        sudo apt-get install -y imagemagick webp
+
+    - name: Build 🔧
+      run: |
+        npm install -g @mermaid-js/mermaid-cli
         export JEKYLL_ENV=production
         bundle exec jekyll build
+
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
-
