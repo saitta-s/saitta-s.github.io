@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   image_alt: Portrait of Simone Saitta
   address: >
-    <p>qurAI group · Amsterdam UMC</p>
+    <p>qurAI group · Amsterdam UMC · University of Amsterdam</p>
     <p>Amsterdam, The Netherlands</p>
     <p><a href="mailto:s.saitta@amsterdamumc.nl">s.saitta@amsterdamumc.nl</a></p>
 
