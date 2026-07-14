@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Peer-reviewed publications in reverse chronological order. For the most up-to-date list, see my <a href="https://scholar.google.com/citations?user=RnJGH34AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> profile.
+description: Peer-reviewed publications in reverse chronological order.
 nav: true
 nav_order: 2
 years: [2025, 2024, 2023, 2022, 2021, 2019]
@@ -10,6 +10,8 @@ conf_years: [2025, 2023, 2022, 2021, 2018]
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
+
+<p>For the most up-to-date list, see my <a href="https://scholar.google.com/citations?user=RnJGH34AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> profile.</p>
 
 <h2>Journal articles</h2>
 {% for y in page.years %}
