@@ -342,6 +342,10 @@ a {
     border-bottom: 2px solid var(--global-divider-color);
     padding-bottom: 0.3rem;
     margin-top: 2.2rem;
+    // Override the -2rem from _base.scss: that negative margin is meant for
+    // the right-aligned year label, but here the year is left-aligned, so it
+    // would otherwise pull the first entry up and overlap the title.
+    margin-bottom: 1rem;
     text-align: left;
   }
 
@@ -350,20 +354,6 @@ a {
 
     .title {
       font-weight: 600;
-    }
-
-    // Long journal abbreviations were overflowing the badge onto the title:
-    // Bootstrap's .badge forces white-space: nowrap, and .abbr had a fixed
-    // height. Let the badge wrap within its column and grow the container.
-    .abbr {
-      height: auto;
-      min-height: 2rem;
-
-      abbr.badge {
-        white-space: normal;
-        line-height: 1.25;
-        text-align: center;
-      }
     }
   }
 }
