@@ -339,12 +339,16 @@ a {
 .publications {
   h2.year {
     color: var(--global-text-color);
+    // _base.scss styles this for a right-aligned label (border-top,
+    // padding-top and a -2rem bottom margin that tucks it beside the first
+    // entry). Here the year is a left-aligned section divider, so reset all
+    // of those — otherwise the negative margin drags the first entry up and
+    // the year number overlaps the title.
+    border-top: none;
+    padding-top: 0;
     border-bottom: 2px solid var(--global-divider-color);
     padding-bottom: 0.3rem;
     margin-top: 2.2rem;
-    // Override the -2rem from _base.scss: that negative margin is meant for
-    // the right-aligned year label, but here the year is left-aligned, so it
-    // would otherwise pull the first entry up and overlap the title.
     margin-bottom: 1rem;
     text-align: left;
   }
