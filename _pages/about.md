@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 ### **Research vision**
-I develop data-driven methods to make cardiovascular imaging more quantitative and objective. My work brings together deep learning, computational modeling, physics, and image analysis to support diagnosis, treatment planning, and image-guided cardiac procedures.
+I develop data-driven methods to make cardiovascular imaging more quantitative and objective. My work brings together deep learning, computational modeling, physics, and image analysis to support diagnosis, treatment planning, and image-guided cardiovascular procedures.
 
 ### **About me**
 I am an **Assistant Professor in Cardiovascular Image Analysis** at <a href='https://www.amsterdamumc.org/en/departments/biomedical-engineering-and-physics'> Department of Biomedical Engineering and Physics</a> of Amsterdam UMC and affiliated to the <a href='https://ivi.uva.nl/'> Informatics Institute</a> of the University of Amsterdam, where I am part of the <a href='https://qurai.amsterdam/'>qurAI group</a>. I lead the technical developments of the <a href='https://www.cara-ai-lab.nl/'>CARA Lab</a>, which develops robust, real-time AI for intracoronary optical coherence tomography (OCT) at the catheterization laboratory, and I contribute to the group's Cardiovascular Lab. My current research centres on AI methods to support interventional cardiology, with an emphasis on coronary artery and aortic diseases. 
