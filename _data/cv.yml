@@ -2,69 +2,66 @@
   type: map
   contents:
     - name: Full Name
-      value: Simone Saitta
+      value: Simone Saitta, PhD
     - name: Position
       value: Assistant Professor in Cardiovascular Image Analysis
     - name: Affiliation
-      value: Amsterdam UMC &amp; University of Amsterdam (qurAI group)
+      value: Amsterdam UMC &amp; University of Amsterdam — qurAI group &amp; CARA Lab
     - name: Email
       value: s.saitta@amsterdamumc.nl
     - name: Languages
-      value: Italian (native), English (full proficiency, TOEFL iBT 107)
+      value: Italian (native), English (full professional; TOEFL iBT 107)
+
+- title: Profile
+  type: list
+  contents:
+    - I develop data-driven methods to make cardiovascular imaging more quantitative and objective. My work brings together deep learning, computational modeling, physics, and image analysis to support diagnosis, treatment planning, and image-guided cardiovascular procedures.
 
 - title: Experience
   type: time_table
   contents:
     - title: Assistant Professor in Cardiovascular Image Analysis
-      institution: Amsterdam UMC &amp; University of Amsterdam, The Netherlands
+      institution: Amsterdam UMC — Dept. of Biomedical Engineering &amp; Physics, The Netherlands
       year: 2024 - now
       description:
-        - Technical manager of the CARA Lab — trustworthy, real-time AI for intracoronary OCT at the catheterization laboratory.
-        - "Research on AI for the non-invasive identification of patients requiring invasive coronary treatment, including CT-derived FFR."
-        - Deep learning and geometric deep learning for coronary CTA/OCT analysis and cardiovascular hemodynamics.
+        - Manager of the CARA Lab (a joint initiative of Amsterdam UMC, Radboudumc and Abbott Vascular) — development and clinical validation of AI systems that analyse intracoronary optical coherence tomography (OCT) in real time during procedures in the catheterization laboratory.
+        - Lead an independent research line on Marfan syndrome, combining medical imaging, biomechanics and machine learning to quantify a patient's risk of aortic-disease progression.
+        - Deep learning for coronary plaque characterisation and detection of thin-cap fibroatheromas, and geometric deep learning as a fast surrogate for blood-flow simulation.
+        - Visiting Researcher, Diagnostic Image Analysis Group (DIAG), Radboudumc.
 
-    - title: Assistant Professor (junior)
+    - title: Junior Assistant Professor / Postdoctoral Research Fellow
       institution: Politecnico di Milano, Italy
       year: 2023 - 2024
-
-    - title: Postdoctoral Research Fellow
-      institution: Politecnico di Milano, Italy
-      year: 2023
       description:
-        - Graph neural networks for fast surrogate modelling of cardiovascular biomechanics.
+        - Graph neural networks as fast surrogates for cardiovascular biomechanics, turning simulations that normally take hours into near-instant predictions.
+        - Co-supervised two doctoral candidates.
 
-    - title: PhD Researcher in Bioengineering
+    - title: Doctoral Researcher in Bioengineering
       institution: Politecnico di Milano, Italy
       year: 2019 - 2023
       description:
-        - Deep neural networks for automatic 3D segmentation of medical images.
-        - Deep-learning pipelines for mixed-reality applications in neurosurgery.
-        - Unsupervised 4D reconstruction of fluid flow from flow-encoded MRI.
-        - 4D variational data assimilation for blood flow in cerebral aneurysms.
+        - Deep neural networks for automatic 3D segmentation of medical images (CT, MRI and 3D transesophageal echocardiography).
+        - Mixed-reality system for neurosurgical guidance (MICCAI 2022; led to a filed patent).
+        - Unsupervised reconstruction of moving 3D blood-flow fields from MRI (implicit neural representations).
+        - 4D variational data assimilation for cerebral-aneurysm haemodynamics.
 
-    - title: Visiting PhD Researcher
-      institution: University of Cambridge (DAMTP), UK
+    - title: Visiting Doctoral Researcher
+      institution: University of Cambridge (DAMTP) &amp; Cambridge Image Analysis Group, UK
       year: 2022
       description:
-        - Inverse problems in medical imaging; unsupervised denoising and super-resolution of flow-encoded MRI.
-
-    - title: Consultant
-      institution: Politecnico di Milano &amp; SAATI S.p.A., Italy
-      year: 2021 - 2023
-      description:
-        - User-defined subroutines for particle-laden, multi-phase flow simulations (volume-of-fluid method).
+        - Inverse problems in imaging — unsupervised denoising and super-resolution of flow-encoded MRI (host&#58; Prof. Carola-Bibiane Schönlieb).
 
     - title: Research Engineer
       institution: National University of Singapore
-      year: 2019
+      year: 2018 - 2019
       description:
-        - Automatic multi-view 4D image registration (Python, SimpleElastix).
+        - Multi-view 4D image registration for fetal heart echocardiography (host&#58; Prof. C.H. Yap).
 
     - title: Research Assistant
-      institution: Imperial College London, UK / Shanghai, China
+      institution: Imperial College London, UK
       year: 2018
       description:
-        - Finite-element non-invasive pressure estimation from MRI; CFD of aortic dissection.
+        - Non-invasive pressure estimation from MRI; computational fluid dynamics of aortic dissection (host&#58; Prof. X.Y. Xu).
 
 - title: Education
   type: time_table
@@ -74,10 +71,13 @@
       year: 2023
       description:
         - "Thesis: Data-driven approaches for quantification of complex biomarkers from medical imaging."
+        - External reviewers&#58; Prof. Jelmer Wolterink (University of Twente) and Prof. Sara Moccia (Scuola Superiore Sant'Anna).
 
     - title: MSc in Biomedical Engineering — Biomechanics and Biomaterials (<em>cum laude</em>)
       institution: Politecnico di Milano, Italy
       year: 2018
+      description:
+        - Thesis on non-invasive assessment of aortic coarctation from 4D-flow MRI; final year at Imperial College London.
 
     - title: BSc in Biomedical Engineering
       institution: Politecnico di Milano, Italy
@@ -90,13 +90,23 @@
       institution: The Marfan Foundation — $100,000
       year: 2023
       description:
-        - "Principal investigator and fellow. Machine learning for identification of geometrical and biomechanical markers of aortic dissection in Marfan patients."
+        - Principal Investigator. Competitive international fellowship on machine learning for markers of aortic dissection in Marfan patients.
+
+    - title: Editor's Choice article
+      institution: Medical &amp; Biological Engineering &amp; Computing
+      year: 2024
+      description:
+        - Riva, Saitta, et al. — left-ventricular diastolic vortex-ring characterisation in ischaemic cardiomyopathy.
 
     - title: Switch2Product startup competition
       institution: Politecnico di Milano — €30,000
       year: 2022
       description:
-        - "Core team member. IPSE-XR: a deep learning and mixed-reality solution to support neurosurgery."
+        - Core team member. IPSE-XR — a deep-learning and mixed-reality solution to support neurosurgery.
+
+    - title: PhD awarded <em>cum laude</em>
+      institution: Politecnico di Milano
+      year: 2023
 
 - title: Patents
   type: time_table
@@ -104,38 +114,112 @@
     - title: Method and system for the improvement of a virtual surgical procedure
       year: 2023
       description:
-        - Filed (PCT).
+        - International (PCT) filing 2023; US national phase 2026 (App. 19/102,976).
 
     - title: System and method for the morpho-functional evaluation of the thoracic vascular district
       year: 2023
       description:
-        - Filed (national).
+        - National filing.
 
 - title: Supervision
+  type: time_table
+  contents:
+    - title: Pascalle Wijntjes — Postdoctoral researcher
+      institution: Neural surrogates for risk stratification in Marfan syndrome · Amsterdam UMC
+      year: 2024
+    - title: Ruben van der Waerden — PhD
+      institution: AI-based assessment of intracoronary OCT · Radboudumc
+      year: 2023 - 27
+    - title: Thijs Luttikholt — PhD
+      institution: Detecting rupture-prone plaque features from OCT · Radboudumc
+      year: 2023 - 27
+    - title: Pierandrea Cancian — PhD
+      institution: Detection and correction of imaging artefacts in OCT · Amsterdam UMC
+      year: 2023 - 27
+    - title: Joske van der Zande — PhD
+      institution: OCT-guided coronary revascularisation · Radboudumc
+      year: 2023 - 27
+    - title: Leah Heil — PhD
+      institution: AI for 3D coronary-artery-tree modelling and OCT co-registration · Radboudumc
+      year: 2025 - 29
+    - title: Xiaojin Gu — PhD
+      institution: AI optimisation of coronary stent placement · Amsterdam UMC
+      year: 2024 - 28
+    - title: Ioanna Gogou — PhD
+      institution: Non-invasive functional coronary assessment from CT angiography · Amsterdam UMC
+      year: 2025 - 29
+    - title: Guido Nannini — PhD
+      institution: Deep learning for coronary-artery-disease risk assessment · Politecnico di Milano
+      year: 2021 - 25
+    - title: Riccardo Munafò — PhD
+      institution: Deep learning for 3D echocardiography analysis · Politecnico di Milano
+      year: 2021 - 25
+    - title: MSc &amp; BSc theses
+      description:
+        - Co-supervised six MSc theses (physics-informed neural networks for blood flow; statistical shape modelling of the aorta; mixed-reality neurosurgery; heart-valve imaging) and several BSc theses on deep-learning segmentation.
+
+- title: Publications
   type: list
   contents:
-    - Currently co-promotor of 7 PhD students.
-    - Supervised 2 PhD, 6 MSc and 6 BSc students; 3 MSc students went on to PhD positions (Politecnico di Milano, TU Delft).
+    - 33 peer-reviewed publications — journal articles and papers at MICCAI, IEEE ISBI and SPIE Medical Imaging — with 751 citations. Full list on the <a href="/publications/">publications page</a> and on <a href="https://scholar.google.com/citations?user=RnJGH34AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>.
+    - "<strong>Selected:</strong> AI-based identification of rupture-prone coronary plaques (thin-cap fibroatheromas) and clinical outcomes: the PECTUS-AI study. <em>European Heart Journal</em> (2025)."
+    - Deep-learning measurement of plaque burden from OCT, validated against intravascular ultrasound. <em>JACC&#58; Cardiovascular Interventions</em> (2025).
+    - "World of Forms: deformable geometric templates for one-shot 3D surface reconstruction of coronary arteries from CT angiography. <em>Medical Image Analysis</em> (2025)."
+    - Implicit neural representations for unsupervised denoising and super-resolution of 4D-flow MRI. <em>Computer Methods and Programs in Biomedicine</em> (2024).
+    - A CT-based deep-learning system for automatic aortic-root anatomy assessment to plan transcatheter valve implantation (TAVI). <em>Computers in Biology and Medicine</em> (2023).
+    - "Mixed reality and deep learning for external ventricular drain placement in emergency neurosurgery. <em>MICCAI</em> (2022)."
+    - <em>Invited book chapter (in preparation)</em> — in <em>Model Validation and Uncertainty Quantification in Biomechanics</em>, Vol. 9 of Elsevier's Biomechanics of Living Organs series.
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: "Keynote — Deep learning for image analysis in interventional cardiology"
+      institution: COLIBRI Focus Workshop on Computational Medicine, University of Graz (one of four keynote speakers)
+      year: 2025
+    - title: "Invited talk — Implicit neural representations for 4D-flow MRI"
+      institution: International Congress on Industrial and Applied Mathematics (ICIAM)
+      year: 2023
+    - title: "Invited talk — Haemodynamic assessment in abdominal aortic aneurysm: imaging, simulation and data assimilation"
+      institution: GIMC–SIMAI
+      year: 2022
+    - title: Podium presentations
+      institution: European Society of Biomechanics (2023), ECCOMAS (2022), European Association of Cardiovascular Imaging (2021)
+
+- title: Academic Service
+  type: list
+  contents:
+    - <strong>Guest Editor</strong>, <em>Computers in Biology and Medicine</em> — special issue on cardiovascular digital twins (2025); co-authored the accompanying editorial.
+    - <strong>Organiser</strong> of a special session at the 19th Symposium on Computer Methods in Biomechanics and Biomedical Engineering (CMBBE), Vancouver, 2024.
+    - Invited external opponent at a doctoral half-time review, Karolinska Institutet (Sweden); regular reviewer of PhD and MSc theses and doctoral-defence committee member.
+    - <strong>Peer reviewer</strong> for <em>IEEE Transactions on Medical Imaging</em>, <em>Medical Image Analysis</em>, <em>Computers in Biology and Medicine</em>, <em>Computer Methods and Programs in Biomedicine</em>, and the MICCAI and IEEE ISBI conferences.
 
 - title: Teaching
   type: time_table
   contents:
-    - title: Teaching Assistant — Biomechanics (3rd-year BSc)
-      institution: Politecnico di Milano
-      year: 2020 - now
-
+    - title: Teaching Assistant — Biomechanics (3rd-year BSc core course)
+      institution: Politecnico di Milano — tutorials, group projects and examinations
+      year: 2020 - 24
     - title: Tutor — Computer Science I (C language)
       institution: National University of Singapore
       year: 2019
+    - title: Course teaching at the University of Amsterdam / Amsterdam UMC
+      year: 2027
+
+- title: Open-source Software
+  type: list
+  contents:
+    - <a href="https://github.com/saitta-s/flow4D" target="_blank" rel="noopener noreferrer"><strong>flow4D</strong></a> — open-source Python toolkit for processing 4D-flow MRI and generating patient-specific inputs for blood-flow simulation; adopted internationally by cardiovascular-modelling groups.
+    - <strong>INRs-4DFlowMRI</strong> — reference implementation of implicit neural representations for 4D-flow MRI (published in <em>Computer Methods and Programs in Biomedicine</em>).
 
 - title: Technical Skills
   type: list
   contents:
-    - <strong>Programming:</strong> Python, MATLAB, C, C++.
-    - <strong>ML &amp; libraries:</strong> PyTorch, VTK, ITK, FEniCS, elastix.
-    - <strong>Containerization &amp; HPC:</strong> Docker, Singularity, GPU-accelerated clusters.
-    - <strong>Simulation:</strong> Ansys, Star-CCM+, OpenFOAM, SimVascular, CRIMSON.
-    - <strong>Processing &amp; visualization:</strong> ParaView, EnSight, 3D Slicer, SolidWorks.
+    - <strong>Programming:</strong> Python (expert), MATLAB, C; C++ (working knowledge).
+    - <strong>Machine learning:</strong> PyTorch; geometric deep learning, implicit neural representations, self- and semi-supervised learning, generative models.
+    - <strong>Medical imaging:</strong> ITK/SimpleITK, VTK, elastix, 3D Slicer, DICOM pipelines; CT, MRI, 4D-flow MRI, 3D/4D echocardiography, intracoronary OCT.
+    - <strong>Scientific computing:</strong> FEniCS (physics-constrained optimisation, adjoint solvers), inverse problems, data assimilation.
+    - <strong>Flow simulation:</strong> Ansys, Star-CCM+, OpenFOAM, SimVascular, CRIMSON.
+    - <strong>Infrastructure:</strong> Docker, Singularity, GPU-accelerated high-performance computing, Git.
 
 - title: Research Interests
   type: nested_list
