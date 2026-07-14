@@ -6,7 +6,7 @@ description: Peer-reviewed publications in reverse chronological order.
 nav: true
 nav_order: 2
 years: [2025, 2024, 2023, 2022, 2021, 2019]
-conf_years: [2025, 2023, 2022, 2021, 2018]
+conf_years: [2026, 2025, 2023, 2022, 2021, 2018]
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
