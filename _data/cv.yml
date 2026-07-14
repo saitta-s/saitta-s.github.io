@@ -124,37 +124,27 @@
 - title: Supervision
   type: time_table
   contents:
-    - title: Pascalle Wijntjes — Postdoctoral researcher
-      institution: Neural surrogates for risk stratification in Marfan syndrome · Amsterdam UMC
+    - institution: Pascalle Wijntjes (postdoc) — Neural surrogates for risk stratification in Marfan syndrome · Amsterdam UMC
       year: 2024
-    - title: Ruben van der Waerden — PhD
-      institution: AI-based assessment of intracoronary OCT · Radboudumc
+    - institution: Ruben van der Waerden (PhD) — AI-based assessment of intracoronary OCT · Radboudumc
       year: 2023 - 27
-    - title: Thijs Luttikholt — PhD
-      institution: Detecting rupture-prone plaque features from OCT · Radboudumc
+    - institution: Thijs Luttikholt (PhD) — Detecting rupture-prone plaque features from OCT · Radboudumc
       year: 2023 - 27
-    - title: Pierandrea Cancian — PhD
-      institution: Detection and correction of imaging artefacts in OCT · Amsterdam UMC
+    - institution: Pierandrea Cancian (PhD) — Detection and correction of imaging artefacts in OCT · Amsterdam UMC
       year: 2023 - 27
-    - title: Joske van der Zande — PhD
-      institution: OCT-guided coronary revascularisation · Radboudumc
+    - institution: Joske van der Zande (PhD) — OCT-guided coronary revascularisation · Radboudumc
       year: 2023 - 27
-    - title: Leah Heil — PhD
-      institution: AI for 3D coronary-artery-tree modelling and OCT co-registration · Radboudumc
+    - institution: Leah Heil (PhD) — AI for 3D coronary-artery-tree modelling and OCT co-registration · Radboudumc
       year: 2025 - 29
-    - title: Xiaojin Gu — PhD
-      institution: AI optimisation of coronary stent placement · Amsterdam UMC
+    - institution: Xiaojin Gu (PhD) — AI optimisation of coronary stent placement · Amsterdam UMC
       year: 2024 - 28
-    - title: Ioanna Gogou — PhD
-      institution: Non-invasive functional coronary assessment from CT angiography · Amsterdam UMC
+    - institution: Ioanna Gogou (PhD) — Non-invasive functional coronary assessment from CT angiography · Amsterdam UMC
       year: 2025 - 29
-    - title: Guido Nannini — PhD
-      institution: Deep learning for coronary-artery-disease risk assessment · Politecnico di Milano
+    - institution: Guido Nannini (PhD) — Deep learning for coronary-artery-disease risk assessment · Politecnico di Milano
       year: 2021 - 25
-    - title: Riccardo Munafò — PhD
-      institution: Deep learning for 3D echocardiography analysis · Politecnico di Milano
+    - institution: Riccardo Munafò (PhD) — Deep learning for 3D echocardiography analysis · Politecnico di Milano
       year: 2021 - 25
-    - title: MSc &amp; BSc theses
+    - institution: MSc &amp; BSc theses
       description:
         - Co-supervised six MSc theses (physics-informed neural networks for blood flow; statistical shape modelling of the aorta; mixed-reality neurosurgery; heart-valve imaging) and several BSc theses on deep-learning segmentation.
 

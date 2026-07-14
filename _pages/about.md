@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-### **Research vision**
+### **Vision**
 I develop data-driven methods to make cardiovascular imaging more quantitative and objective. My work brings together deep learning, computational modeling, physics, and image analysis to support diagnosis, treatment planning, and image-guided cardiovascular procedures.
 
 ### **About me**
